@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Fandom Enhance",
+  "version": "1.0.4",
+  "icons": {
+    "128": "icon.png"
+  },
+  "description": "Removes bloat from any fandom.com wiki",
+  "content_scripts": [
+    {
+      "matches": ["*://*.fandom.com/wiki/*", "*://*.fandom.com/*/wiki/*"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://*.fandom.com/wiki/*", "*://*.fandom.com/*/wiki/*"],
+      "css": ["style.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
