@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "web-ext": "^6.0.0"
+    "web-ext": "^6.4.0"
   },
   "scripts": {
     "dev": "web-ext run",

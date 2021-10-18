@@ -1,42 +1,85 @@
-.wds-global-navigation-wrapper{
+.wds-global-navigation-wrapper {
   display: none !important;
 }
 
-.featured-video__wrapper{
+.featured-video__wrapper {
   display: none !important;
 }
 
-#mixed-content-footer{
+#mixed-content-footer {
   display: none !important;
 }
 
-.WikiaBarWrapper{
+.WikiaBarWrapper {
   display: none !important;
 }
 
-.wds-global-footer__header{
+.wds-global-footer__header {
   display: none !important;
 }
 
-.wds-global-footer__main{
+.wds-global-footer__main {
   display: none !important;
 }
 
-.wds-global-footer{
+.wds-global-footer {
   margin-bottom: -30px !important;
   background-color: transparent !important;
 }
 
-.fandom-stories{
+.fandom-stories {
   display: none !important;
 }
 
-.exact-wiki-match{
+.exact-wiki-match {
   display: none !important;
 }
 
 @media only screen and (max-width: 1595px) {
-  .collapseIfSmall{
+  .collapseIfSmall {
     display: none !important;
   }
+}
+
+.top-ads-container,
+.bottom-ads-container,
+#top_boxad {
+  display: none;
+}
+
+.global-navigation {
+  position: fixed;
+  top: 100vh;
+}
+
+.notifications > .wds-dropdown > .wds-dropdown__content {
+  position: fixed;
+  left: 0 !important;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+}
+
+.main-container {
+  margin-left: 0;
+  width: 100%;
+}
+
+.fandom-sticky-header {
+  left: 0;
+  right: 0;
+}
+
+.wds-dropdown > .wds-button.wds-is-secondary.wds-dropdown__toggle {
+  padding: 7px 5px;
+}
+
+.search-modal,
+.search-modal::before {
+  left: 0 !important;
+}
+
+[data-testid="ExitIntentEmailWrapper"],
+.instant-suggestion {
+  display: none;
 }
