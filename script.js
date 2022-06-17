@@ -37,6 +37,11 @@ if (loggedIn) {
         "wds-dropdown wds-open-to-right is-attached-to-bottom"
       )[1]
     );
+    try {
+      document.getElementsByClassName(
+        "wiki-tools wds-button-group"
+      )[1].children[4].children[0].style.borderRadius = 0;
+    } catch (e) {}
   });
 } else {
   addToNavmenu(loginTab);

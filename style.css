@@ -47,7 +47,8 @@
   display: none;
 }
 
-.global-navigation {
+.global-navigation,
+.global-navigation__bottom {
   position: fixed;
   top: 100vh;
 }
@@ -82,4 +83,12 @@
 [data-testid="ExitIntentEmailWrapper"],
 .instant-suggestion {
   display: none;
+}
+
+#SurveyModule {
+  display: none;
+}
+
+.fandom-community-header__background.fullScreen {
+  width: 100%;
 }
