@@ -96,3 +96,44 @@
 .marketing-notifications {
   display: none !important;
 }
+
+#global-explore-navigation {
+  display: none !important;
+}
+
+#featured-video__player-container {
+  display: none !important;
+}
+
+#global-top-navigation {
+  background: none !important;
+}
+
+.global-top-navigation__fandom-logo,
+.global-top-navigation__action-wrapper {
+  display: none !important;
+}
+
+#incontent_boxad {
+  display: none !important;
+}
+
+.ad-slot-placeholder {
+  display: none !important;
+}
+
+.community-navigation__fandom-heart {
+  display: none !important;
+}
+
+.global-footer__content {
+  display: none;
+}
+
+#incontent_player {
+  display: none !important;
+}
+
+.openweb-ad-unit {
+  display: none !important;
+}

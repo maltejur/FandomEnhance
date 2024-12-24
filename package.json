@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "web-ext": "^6.4.0"
+    "web-ext": "^8.3.0"
   },
   "scripts": {
-    "dev": "web-ext run",
+    "dev": "web-ext run --firefox firefox-nightly",
     "build": "web-ext build --overwrite-dest"
   }
 }
