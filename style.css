@@ -137,3 +137,19 @@
 .openweb-ad-unit {
   display: none !important;
 }
+
+.page__right-rail {
+  display: none !important;
+}
+
+.global-explore-navigation {
+  display: none !important;
+}
+
+.global-action__item.register {
+  display: none !important;
+}
+
+#onetap_google_intermediate_iframe {
+  display: none !important;
+}
